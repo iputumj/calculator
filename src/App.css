@@ -18,8 +18,8 @@ body {
   transform: translate(-50%, -50%);
   margin: 0 auto;
   text-align: center;
-  border: 10px solid #949191;
-  background: #565656;
+  border: 10px solid #565656;
+  background: #262834;
   border-radius: 5px;
 }
 
@@ -57,8 +57,9 @@ input[type="text"] {
 }
 
 button {
-  margin: 1px;
+  margin: 2px;
   border: none;
+  border-radius: 3px;
   cursor: pointer;
   font-weight: 500;
 }

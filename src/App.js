@@ -16,7 +16,8 @@ function App() {
     setResult(result.slice(0, -1));
   }
 
-  const calculate = () => {
+  const calculate = (e) => {
+    setResult(result.concat(e.target.name));
     try {
       setResult(eval(result).toString());
     } catch (error) {
